@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/public/favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Noxwya Editor Portfolio</title>
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/animations.css">
+  <link rel="stylesheet" href="./css/responsive.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <div class="cursor"></div>
+  <div class="cursor-follower"></div>
+
+  <header class="header">
+    <div class="container">
+      <div class="header__logo">
+        <a href="#hero">
+          <div class="logo-container">
+            <div class="logo-svg">
+              <img src="public/favicon.svg" alt="Logo" width="32" height="32">
+            </div>
+            <span>Monteur Vidéo</span>
+          </div>
+        </a>
+      </div>
+
+      <div class="header__nav">
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#hero" class="nav__link active">Accueil</a></li>
+            <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+            <li class="nav__item"><a href="#services" class="nav__link">Portfolio</a></li>
+            <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+
+      <div class="header__mobile-nav-toggle">
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section id="hero" class="hero">
+      <div class="container">
+        <div class="hero__content">
+          <h1 class="hero__title">
+            <span class="line">Monteur Vidéo</span>
+          </h1>
+          <p class="hero__subtitle">Transformer vos vidéos en pépites</p>
+          <div class="hero__cta">
+            <a href="#contact" class="btn btn-primary">Commencer un projet</a>
+            <a href="#services" class="btn btn-secondary">Voir Portfolio</a>
+          </div>
+        </div>
+      </div>
+      <div class="hero__bg-elements">
+        <div class="circle circle-1"></div>
+        <div class="circle circle-2"></div>
+        <div class="circle circle-3"></div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">About Me</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="about__content">
+          <div class="about__image">
+            <div class="image-container">
+              <img src="Captura de tela 2025-03-21 213023.png" alt="Logo Noxwya">
+              <div class="image-overlay"></div>
+            </div>
+          </div>
+          <div class="about__text">
+            <h3>Salut, je suis <span class="highlight">Mathieu</span></h3>
+            <p>Monteur vidéo passioné par la création, le motions design et bien plus encore. J'aime le montage vidéo, et cela fait plus d'un an que je travaille avec plusieurs entrepreuneurs.</p>
+            <p>De vidéos longues et vidéos courtes, je peux transformer vos créations.</p>
+            <div class="about__skills">
+              <div class="skill">
+                <span class="skill-name">Adobe Premiere Pro</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 95%"></div>
+                </div>
+              </div>
+              <div class="skill">
+                <span class="skill-name">After Effects</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 67%"></div>
+                </div>
+              </div>
+             
+              <div class="skill">
+                <span class="skill-name">Motion Design</span>
+                <div class="skill-bar">
+                  <div class="skill-progress" style="width: 50%"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    
+
+    <section id="services" class="projects">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">Portfolio</h2>
+          <div class="section-line"></div>
+        </div>
+        <div class="projects__filter">
+          <button class="filter-btn active" data-filter="all">Tout mes services</button>
+        </div>
+
+        <div class="services-videos">
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/bvHSp1eNhRE" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/skcFFS4YwuY" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/mchXWT0YqVE" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/ggfN5HjMjNA" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/MNnM7mb-Uzw" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/Ri43qpYvCPI" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/Mvn9DLJsq1Q" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/E5CuCXWuuug" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+          <div class="video-wrapper"><iframe src="https://www.youtube.com/embed/CMSUmeotFaA" title="YouTube video player" frameborder="0" allowfullscreen></iframe></div>
+        </div>
+
+        <div class="projects__grid">
+          <!-- Existing project cards here -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Videos and Contact sections -->
+  </main>
+
+  <footer class="footer">
+    <!-- Footer content here -->
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
+
+<section id="contact" class="contact">
+  <div class="container" style="display: flex; flex-direction: column; align-items: center; justify-content: center; text-align: center; padding: 2rem;">
+    <div class="section-header">
+      <h2 class="section-title">Me contacter</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="contact__content" style="display: flex; flex-direction: column; gap: 2rem; align-items: center; width: 100%;">
+      <div class="contact__info" style="max-width: 700px;">
+        <h3>Créons quelque chose d'incroyable ensemble !</h3>
+        <p>Prêt à rendre tes vidéos meilleures et à toucher une plus grande audience grâce au montage vidéo ? Réfléchissons à quelque chose ensemble.</p>
+        <div class="contact__methods" style="display: flex; flex-direction: column; gap: 1.5rem; margin-top: 2rem;">
+          <div class="contact-method">
+            <div class="icon"><i class="fab fa-instagram"></i></div>
+            <div class="details">
+              <h4>Instagram</h4>
+              <a href="https://instagram.com/noxwyafr" target="_blank">@noxwyafr</a>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="icon"><i class="fab fa-discord"></i></div>
+            <div class="details">
+              <h4>Discord</h4>
+              <a href="https://discord.com/users/username" target="_blank">noxwya</a>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="icon"><i class="fab fa-whatsapp"></i></div>
+            <div class="details">
+              <h4>WhatsApp</h4>
+              <a href="https://wa.me/594694989457" target="_blank">+594 694 98 94 57</a>
+            </div>
+          </div>
+          <div class="contact-method">
+            <div class="icon"><i class="fas fa-envelope"></i></div>
+            <div class="details">
+              <h4>Email</h4>
+              <a href="mailto:aidenyoko62@gmail.com">aidenyoko62@gmail.com</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__content">
+        <div class="footer__logo">
+          <div class="logo-container">
+            <div class="logo-svg">
+              <img src="public/favicon.svg" alt="Logo" width="32" height="32">
+            </div>
+            <span>Noxwya Editor</span>
+          </div>
+        </div>
+        <div class="footer__links">
+          <div class="footer__nav">
+            <h3>Navégation</h3>
+            <ul>
+              <li><a href="#hero">Accueil</a></li>
+              <li><a href="#about">About me</a></li>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer__social">
+            <h3>Social</h3>
+            <div class="social-icons">
+              <a href="https://instagram.com/noxwyafr" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://wa.me/+594694989457" target="_blank"><i class="fab fa-whatsapp"></i></a>
+              <a href="https://youtube.com/@noxwya_editing" target="_blank"><i class="fab fa-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; <span id="currentYear">2025</span> Noxwya. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script type="module" src="./js/main.js"></script>
+</body>
+</html>
